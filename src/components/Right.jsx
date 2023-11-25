@@ -1,10 +1,11 @@
 import DropdownContainer from './DropdownContainer';
-import './sides.css';
+import './Sides.css';
+import './Right.css';
 
 const Right = () => {
   return (
-    <div className="border side">
-      <h1>FAQ</h1>
+    <div className="border right side">
+      <h1 className="border">FAQ</h1>
       <DropdownContainer />
     </div>
   );

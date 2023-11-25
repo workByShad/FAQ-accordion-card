@@ -3,7 +3,7 @@ import DropdownItem from './DropdownItem';
 
 const DropdownContainer = () => {
   return (
-    <div>
+    <div className="border">
       <DropdownItem />
       <DropdownItem />
       <DropdownItem />
